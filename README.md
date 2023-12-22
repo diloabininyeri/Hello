@@ -4,12 +4,15 @@
 
 I wrote a sample Debian package structure to make it understandable in its simplest form.
 
-### Build 
+### Download
 ```console
 git clone https://github.com/diloabininyeri/hello.git
 
-chmod 755 -R hello/
+chmod 755 -R hello/ #change the permissions
+```
 
+### Build 
+```console
 dpkg-deb --build hello
 ```
 >You can install the created deb file with apt-get or double click.
