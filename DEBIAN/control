@@ -1,0 +1,5 @@
+Package: HelloApp
+Version: 1.0
+Architecture: amd64
+Maintainer: Your Name <berxudar@gmail.com>
+Description: its my first linux package
