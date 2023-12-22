@@ -6,6 +6,7 @@ I wrote a sample Debian package structure to make it understandable in its simpl
 
 ### Build 
 ```console
+git clone https://github.com/diloabininyeri/hello.git
 dpkg-deb --build hello
 ```
 >You can install the created deb file with apt-get or double click.
